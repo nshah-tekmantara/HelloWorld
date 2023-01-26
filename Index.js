@@ -13,3 +13,11 @@ function multiplyNumbers(x, y) {
 function subtractNumbers(x, y) {
   return x - y;
 }
+
+function divideNumbers(x, y) {
+  if (y < 1) {
+    return x / y;
+  } else {
+    console.warn("division can't be performed with zero or negative numbers");
+  }
+}
