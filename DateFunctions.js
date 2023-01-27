@@ -36,7 +36,7 @@ console.log('Current date hour : ', hour);
 console.log('Current date minute : ', minute);
 console.log('Current date seconds : ', second);
 console.log(
-  'Current date timezone(getTimezoneOffset()) difference in minutes : ',
+  'Current datetimezone(getTimezoneOffset()) difference in minutes : ',
   timezone,
   'In hours',
   (timezone / 60).toFixed(2)
@@ -88,10 +88,10 @@ var istDate = intlDateObj.format(localDateInUTC);
 var istDateTimeFull = intlDateFullObj.format(localDateInUTC);
 
 console.log(
-  'Local date time in UTC format - ',
+  'Local datetime in UTC format - ',
   localDateInUTC,
   '\n Local time in IST date format - ',
   istDate,
-  '\n Local date time in IST date time format - ',
+  '\n Local datetime in IST datetime format - ',
   istDateTimeFull
 );
